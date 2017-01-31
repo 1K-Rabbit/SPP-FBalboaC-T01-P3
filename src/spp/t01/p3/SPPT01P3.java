@@ -19,7 +19,7 @@ public class SPPT01P3 {
        Double X2;
        Double Y1;
        Double Y2;
-       Double D;
+       Double Dis;
     
     System.out.println("Bienvenido al determinador de distancias "); 
         System.out.println("Introduce tus distancias en metros ");
@@ -31,8 +31,8 @@ public class SPPT01P3 {
         X2 = Kb.nextDouble();
         System.out.println("Y ahora la coordenada en Y del punto de destino : ");
         Y2 = Kb.nextDouble();
-        D = Math.sqrt(Math.pow(X1-X2, 2)+ Math.pow(Y1-Y2, 2));
-        System.out.println("La distancia a tu destino es de "+ (D) + " metros");
+        Dis = Math.sqrt(Math.pow(X1-X2, 2)+ Math.pow(Y1-Y2, 2));
+        System.out.println("La distancia a tu destino es de "+ (Dis) + " metros");
         System.out.println("Gracias por usar");
                
         // TODO code application logic here
